@@ -1,0 +1,51 @@
+/* Warna utama dan aksen */
+:root {
+    --primary-color: #a4cefb; /* Warna utama, misalnya biru */
+    --accent-color: #ffc107; /* Warna aksen, misalnya kuning */
+}
+
+body {
+    background-color: #4070a0; /* Warna latar belakang halaman */
+    color: #efeff1; /* Warna teks utama */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% tinggi viewport */
+}
+
+.jumbotron {
+    background-color: var(--primary-color); /* Warna latar belakang jumbotron */
+    color: #131212; /* Warna teks di jumbotron */
+}
+
+.card {
+    background-color: #395976; /* Warna latar belakang card */
+    border: 1px solid #5c5e5f; /* Warna border card */
+}
+
+.card-title {
+    color: var(--primary-color); /* Warna judul card */
+}
+
+.btn-primary {
+    background-color: var(--primary-color); /* Warna latar belakang tombol primer */
+    border-color: var(--primary-color); /* Warna border tombol primer */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol primer saat hover */
+    border-color: #0056b3; /* Warna border tombol primer saat hover */
+}
+
+
+.footer {
+    position: fixed; /* Tetapkan posisi footer */
+    bottom: 0; /* Tempatkan footer di bagian bawah */
+    width: 100%; /* Lebarkan footer agar sesuai lebar halaman */
+    background-color: #fff; /* Warna latar belakang footer */
+    color: black; /* Warna teks di footer */
+    padding: 0px 0; /* Berikan padding atas dan bawah agar konten tidak terlalu rapat */
+}
+
+.container {
+    flex: 1; /* Membuat konten mengisi ruang yang tersedia */
+}
